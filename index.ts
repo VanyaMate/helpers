@@ -1,1 +1,1 @@
-export * from './helpers/classname';
+export * from './react/classname';

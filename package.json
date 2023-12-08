@@ -1,6 +1,6 @@
 {
-    "name": "@vanyamate/react-helpers",
-    "version": "0.0.2",
+    "name": "@vanyamate/helpers",
+    "version": "0.0.3",
     "description": "",
     "type": "commonjs",
     "private": false,
