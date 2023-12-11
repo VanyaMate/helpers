@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { cn } from '../react/classname';
+import { cn } from './classname';
 
 
 describe('ClassName join', () => {

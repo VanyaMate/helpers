@@ -1,6 +1,6 @@
 {
     "name": "@vanyamate/helpers",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "",
     "type": "commonjs",
     "private": false,
@@ -8,7 +8,8 @@
     "scripts": {
         "test": "jest",
         "test:watch": "jest --watch",
-        "publish": "npm run test && npm publish --access public"
+        "build": "tsc --declaration index.ts",
+        "publish": "npm run test && npm run build && npm publish --access public"
     },
     "keywords": [],
     "author": "Vanya Mate",

@@ -1,1 +1,3 @@
-export * from './helpers/classname';
+export * from './react/classname';
+export * from './date/getStringDeltaByDates/getStringDeltaByDates';
+export * from './date/getDeltaByDates/getDeltaByDates';
