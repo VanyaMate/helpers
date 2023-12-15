@@ -53,4 +53,9 @@ describe('getStringDeltaByDates', () => {
         expect(getStringDeltaByDates(getDeltaByDates(0, 60000 * 60 * 24 * 30 * 12 * 22))).toBe(`22 года назад`);
         expect(getStringDeltaByDates(getDeltaByDates(0, 60000 * 60 * 24 * 30 * 12 * 36))).toBe(`36 лет назад`);
     });
+
+    test('postfix', () => {
+        expect(getStringDeltaByDates(getDeltaByDates(0, 60000 * 60 * 24 * 30 * 12), ' вперед')).toBe(`1 год вперед`);
+        expect(getStringDeltaByDates(getDeltaByDates(0, 60000 * 60 * 24 * 30 * 12 * 2), '.')).toBe(`2 года.`);
+    });
 });

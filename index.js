@@ -17,3 +17,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./react/classname"), exports);
 __exportStar(require("./date/getStringDeltaByDates/getStringDeltaByDates"), exports);
 __exportStar(require("./date/getDeltaByDates/getDeltaByDates"), exports);
+__exportStar(require("./date/getEndingByValue/getEndingByValue"), exports);
